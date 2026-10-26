@@ -1,0 +1,37 @@
+{
+  "$schema": "https://simide.dev/schemas/v1/tutorial.schema.json",
+  "name": "advanced-dsa-masterclass",
+  "version": "2.0.0",
+  "title": "Advanced DSA Masterclass: Pointers, Trees & Reversals",
+  "author": "FeV-06",
+  "description": "Comprehensive interactive course covering Doubly Linked Lists, BST hierarchical trees, and in-place three-pointer algorithms.",
+  "difficulty": "intermediate",
+  "structureType": "linked_list",
+  "compiler": {
+    "standard": "c++17",
+    "flags": ["-g", "-O0"]
+  },
+  "lessons": [
+    {
+      "id": "doubly-linked-list",
+      "title": "Lesson 1: Doubly Linked List (Bidirectional Wiring)",
+      "description": "Understand prev and next pointers, head/tail linking, and mutual unlinking.",
+      "path": "lessons/01-doubly-linked-list/main.cpp",
+      "guide": "lessons/01-doubly-linked-list/guide.md"
+    },
+    {
+      "id": "binary-search-tree",
+      "title": "Lesson 2: Binary Search Tree Insertion",
+      "description": "Visualize hierarchical heap nodes, left/right branches, and recursion.",
+      "path": "lessons/02-binary-search-tree/main.cpp",
+      "guide": "lessons/02-binary-search-tree/guide.md"
+    },
+    {
+      "id": "in-place-reversal",
+      "title": "Lesson 3: In-Place Three-Pointer Reversal",
+      "description": "Watch prev, curr, and forward pointers rewire links in-place.",
+      "path": "lessons/03-in-place-reversal/main.cpp",
+      "guide": "lessons/03-in-place-reversal/guide.md"
+    }
+  ]
+}
